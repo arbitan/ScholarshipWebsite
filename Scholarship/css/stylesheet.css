@@ -49,7 +49,7 @@ h5,
 h6 {
 
     font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    font-weight: 300;
     text-transform: uppercase;
     text-align: center;
 }
@@ -115,6 +115,7 @@ section.success {
     text-transform: uppercase;
     border: none;
     background: #1A9BD2;
+    
 }
 
 #mainNav a:focus {
@@ -122,7 +123,8 @@ section.success {
 }
 
 #mainNav .navbar-brand {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+     font-weight: 1;
     color: white;
 }
 
@@ -245,7 +247,7 @@ header.masthead img {
 header.masthead .intro-text .name {
     font-family: 'Fontin', sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 100;
     display: block;
     text-transform: uppercase;
 }
