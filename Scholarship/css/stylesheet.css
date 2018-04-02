@@ -112,7 +112,7 @@ section.success {
 #mainNav {
      font-family: 'Lato', sans-serif;
     font-weight: 00;
-    text-transform: uppercase;
+    text-transform: none;
     border: none;
     background: #1A9BD2;
     
@@ -491,7 +491,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 20px 0;
+    padding-top: 10px; 0;
     background-color: #2c3e50;
 }
 
@@ -607,6 +607,10 @@ fieldset[disabled] .btn-primary:hover {
     color: white;
     border-color: #0a4b3e;
     background-color: #128f76;
+}
+#center-text
+{
+    text-transform: none;
 }
 
 .btn-success:hover {
